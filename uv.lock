@@ -221,7 +221,7 @@ wheels = [
 ]
 
 [[package]]
-name = "deebot-client"
+name = "deebot-client-t80"
 version = "0.0.0"
 source = { editable = "." }
 dependencies = [
@@ -229,6 +229,7 @@ dependencies = [
     { name = "aiomqtt" },
     { name = "cachetools" },
     { name = "defusedxml" },
+    { name = "svg-py" },
 ]
 
 [package.dev-dependencies]
@@ -275,6 +276,7 @@ requires-dist = [
     { name = "aiomqtt", specifier = ">=2.0.0,<3.0" },
     { name = "cachetools", specifier = ">=5.0.0,<7.0" },
     { name = "defusedxml", specifier = ">=0.7.1" },
+    { name = "svg-py", specifier = "~=1.5.0" },
 ]
 
 [package.metadata.requires-dev]
@@ -916,6 +918,15 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/fe/75/af448d8e52bf1d8fa6a9d089ca6c07ff4453d86c65c145d0a300bb073b9b/rich-14.1.0.tar.gz", hash = "sha256:e497a48b844b0320d45007cdebfeaeed8db2a4f4bcf49f15e455cfc4af11eaa8", size = 224441, upload-time = "2025-07-25T07:32:58.125Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/e3/30/3c4d035596d3cf444529e0b2953ad0466f6049528a879d27534700580395/rich-14.1.0-py3-none-any.whl", hash = "sha256:536f5f1785986d6dbdea3c75205c473f970777b4a0d6c6dd1b696aa05a3fa04f", size = 243368, upload-time = "2025-07-25T07:32:56.73Z" },
+]
+
+[[package]]
+name = "svg-py"
+version = "1.5.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/b9/6d/4680d284924d66082b39e7508b70346a8132c06a4bac497ef4d2c05430ec/svg_py-1.5.0.tar.gz", hash = "sha256:a036d0118176c2498601fab33b9b68dd9754e6a5fa12e4d36cce071b307b5c11", size = 40710, upload-time = "2024-09-23T07:34:04.893Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/51/2b/a541bed029de9ac6a558d3eeeeb0fff5046687651e61d38df3dc43f48e2a/svg_py-1.5.0-py3-none-any.whl", hash = "sha256:5c467efd5a43e8df4dd6f6d078063f195a04966721d36c43d62f5d7529f908d1", size = 13443, upload-time = "2024-09-23T07:34:03.319Z" },
 ]
 
 [[package]]
